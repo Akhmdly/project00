@@ -5,7 +5,7 @@ const categoryList = document.getElementById("categoryList");
 const favoritesContainer = document.getElementById("favoritesContainer");
 
 function showOneBookGenre() {
-    const genres = ["Fiction", "novel", "cookbook", "self-help", "dramatic", "science fiction", "painting", "art", "essay", "poetry", "children", "programming", "religion"];
+    const genres = ["Fiction", "novel", "cookbook", "self-help", "dramatic", "science fiction","Electronic journals", "painting", "NetWare","art", "essay", "poetry", "children", "programming","mystery","romance", "Education","religion"];
 
     const genrePromises = genres.map(genre => {
         const genreUrl = `https://www.googleapis.com/books/v1/volumes?q=${genre}&maxResults=40`;
