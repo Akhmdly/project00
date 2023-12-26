@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans';
+}
+body{
+    background:  linear-gradient(0deg, #faf6f0 , rgba(250,247,242,1) 100%);
+}
+header{
+    width: 100%;
+    background-color: #f4e5d07a;
+}
+.header-div{
+    width: 1349px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: 'Pacifico';
+    font-size: 40px;
+    color: #d47004;
+    text-decoration: none;
+}
+.navigation-container{
+    border-radius: 10px;
+}
+.navigation-list{
+    list-style: none;
+}
+.navigation-item{
+    display: inline-block;
+    padding: 5px 15px;
+}
+.navigation-item a{
+    text-decoration: none;
+    color: #ec6d0eed;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 5px 8px;
+}
+.activePage{
+    color: #956d26 !important;
+    border-bottom: 2px solid #9d620b; 
+}
+.navigation-item a:hover{
+    color: #956d26;
+    border-bottom: 2px solid #9d620b;
+}
+
+.register-btn{
+    background-color: #d47004;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 7px 11px;
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 40px;
+}
+.register-btn:hover{
+    background-color: #c56907;
+}
+.myBook{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+.bookImgContainer{
+    margin-right:50px;
+    width: 200px;
+}
+.bookImgContainer img{
+    width: 100%;
+}
+.information{
+    margin-bottom: 50px;
+    width: 590px;
+}
+.description{
+    width: 600px;
+}
+.bTitle{
+    color: #d47004;
+    font-size: 30px;
+    font-family: 'Alkatra';
+}
+p{
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 10px;
+}
+p span{
+    color: #bc5a0b;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;  
+} 

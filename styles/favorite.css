@@ -1,0 +1,79 @@
+.iconHeart {
+    position: absolute;
+    right: 10px;
+    font-size: 22px;
+}
+#favoritesContainer{
+    margin-top: 15px;
+}
+.favorite-book{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #f0ecea;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.popup .overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+    display: none;
+}
+.popup .content{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background-color: #fff;
+    width: 450px;
+    z-index: 4;
+    text-align: center;
+    padding: 35px ;
+}
+.popup .close-btn{
+    width: 23px;
+    height: 23px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #222;
+    border: 0;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+.popup .close-btn:hover{
+    background-color: #f50909;
+}
+
+.popup.active .overlay{
+    display: block;
+}
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
+}
+.removeFavBtn{
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+    padding: 5px;
+    background-color: #fa0303;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.favList{
+    background-color: inherit;
+    font-size: 17px;
+    color: #fff;
+    border: 0;
+}
+.noResult{
+    margin: 30px;
+    font-size: 18px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style-login.css">
+    <link rel="icon" type="image/png" href="./images/title.png" /> 
+    <title>Registration</title>
+</head>
+<body>
+    <div class="subcribeContainer">
+        <div class="register">
+            <p class="textLog">Sign up</p>
+            <form class="form" id="myForm">
+
+                <label for="username" class="usernameLabel"></label>
+                <input name="username" type="text" id="username" class="login-info" placeholder="Username" required />
+
+                <label for="email"></label>
+                <input name="email" type="email" id = "email" class="login-info" placeholder="E-mail" required />
+
+                <label for="passwordInput"></label>
+                <input name="password" type="password" placeholder="Password" class="login-info" id="passwordInput" required />
+
+                <button type="submit" class="login-button" onclick="clearForm()">Sign up</button>
+            </form>
+            <p class="orSign">Already have an account?
+                <a href="#" id="logInLink" class="orSingLink" onclick="clearForm()">Log in</a>
+            </p>       
+        </div>   
+    </div>
+    
+    <script src="./js/app-login.js"></script>
+</body>
+</html>

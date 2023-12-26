@@ -1,0 +1,634 @@
+@media screen and (min-width:1099px) and (max-width: 1300px){
+    main{
+        width: 1080px;
+    }
+    aside{
+        width: 210px;
+    }
+    
+    section{
+        width: 830px;
+    }
+    .book{
+        width: 190px;
+    }
+    .iconHeart{
+        right: 5px;
+        font-size: 19px;
+    }
+    .imageDiv{
+        width: 130px;
+        height: 190px;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width: 1100px){
+    main{
+        width: 940px;
+    }
+    aside{
+        width: 200px;
+    }
+    
+    section{
+        width: 700px;
+    }
+    .book{
+        width: 190px;
+    }
+    .book-list{
+        justify-content: center;
+    }
+    .iconHeart{
+        right: 5px;
+        font-size: 19px;
+    }
+    .imageDiv{
+        width: 130px;
+        height: 190px;
+    }
+    .footer-container {
+        width: 650px;
+    }    
+    .footer-item {
+        padding: 5px 15px;
+    }
+    .footer-item a {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:729px) and (max-width: 990px){
+    .register-btn {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+    .navigation-container {
+        width: 500px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .navigation-item  {
+        padding: 5px 10px;
+    }
+
+    .navigation-item a {
+        font-size: 19px;
+        padding: 8px;
+    }
+    .sliderTxt1 {
+        top: 90px;
+        width: 170px;
+        line-height: 60px;
+        font-size: 26px;
+        left: 60px;
+    }
+    .slider-item img{
+        height: 70vh;
+    }
+    .slider-content {
+        height: 70vh;
+    } 
+    main{
+        display: block;
+    }
+    aside {
+        width: 680px;
+        margin: 0 auto;
+    }
+    section {
+        width: 680px;
+        margin: 0 auto;
+    }
+    .book {
+        width: 190px;
+        margin: 15px;
+        margin-right: 32px;
+    }
+
+    .iconHeart{
+        right: 5px;
+        font-size: 19px;
+    }
+    .imageDiv{
+        width: 130px;
+        height: 190px;
+    }
+    .book-list {
+        justify-content: center;
+    }
+    .book-btn{
+        font-size: 16px;
+        padding: 5px 11px;
+    }
+    .input-div {
+        width: 200px;
+    }
+    .searchLogo {
+        margin-top: 3px;
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+    }
+    #searchInput {
+        font-size: 15px;
+    }
+    .favList{
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    .popup .content{
+        width: 350px;
+    }
+    .author-p , #authorList {
+        display: none;
+    }
+    .category-p {
+        display: block;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }
+    
+    #categoryList {
+        display: none;
+    }
+
+    .category-p.activeCategory + #categoryList {
+        display: block;
+    }
+    .category-p:hover{
+        background-color: #462a0b;
+    }
+
+    .footer-container {
+        width: 520px;
+    }    
+    .footer-item {
+        padding: 5px 10px;
+    }
+    .footer-item a {
+        font-size: 14px;
+    }  
+
+}
+
+@media screen and (min-width:600px) and (max-width: 728px){
+    
+    .register-btn {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+    .navigation-container {
+        width: 300px;
+        margin: 10px auto;
+        text-align: center;
+    }
+    .navigation-item {
+        padding: 4px;
+    }
+
+    .navigation-item a {
+        font-size: 15px;
+        padding: 4px;
+    }
+    .sliderTxt1 {
+        top: 45px;
+        width: 150px;
+        line-height: 50px;
+        font-size: 24px;
+        left: 50px;
+    }
+    .slider-item img{
+        height: 50vh;
+    }
+    .slider-content {
+        height: 50vh;
+    } 
+    main{
+        display: block;
+    }
+    aside {
+        width: 550px;
+        margin: 0 auto;
+    }
+    section {
+        width: 550px;
+        margin: 0 auto;
+    }
+    .book {
+        width: 190px;
+        margin: 15px;
+        margin-right: 32px;
+    }
+
+    .iconHeart{
+        right: 5px;
+        font-size: 19px;
+    }
+    .imageDiv{
+        width: 130px;
+        height: 190px;
+    }
+
+    .book-list {
+        justify-content: center;
+    }
+    .book-btn{
+        font-size: 16px;
+        padding: 5px 11px;
+    }
+    .input-div {
+        width: 200px;
+    }
+    .searchLogo {
+        margin-top: 3px;
+        display: inline-block;
+        width: 26px;
+        height: 26px;
+    }
+    #searchInput {
+        font-size: 15px;
+    }
+    .favList{
+        font-size: 15px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+
+    .popup .content{
+        width: 350px;
+    }
+    
+    .author-p , #authorList {
+        display: none;
+    }
+
+    .category-p {
+        display: block;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }
+    .category-p:hover{
+        background-color: #462a0b;
+    }
+    #categoryList {
+        display: none;
+    }
+
+    .category-p.activeCategory + #categoryList {
+        display: block;
+    }
+
+    .footer-container {
+        width: 520px;
+    }    
+    .footer-item {
+        padding: 5px 10px;
+    }
+    .footer-item a {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width: 599px){
+    
+    .register-btn {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+    .navigation-container {
+        display: none;
+    }
+
+    .sliderTxt1 {
+        top: 45px;
+        width: 150px;
+        line-height: 50px;
+        font-size: 24px;
+        left: 50px;
+    }
+    .slider-item img{
+        height: 50vh;
+    }
+    .slider-content {
+        height: 50vh;
+    }
+
+    main{
+        display: block;
+    }
+    aside {
+        margin: 0 auto;
+    }
+    section {
+        width: 250px;
+        margin: 30px auto;
+    }
+    .book {
+        width: 190px;
+        margin: 15px;
+        margin-right: 32px;
+    }
+
+    .iconHeart{
+        right: 5px;
+        font-size: 19px;
+    }
+    .imageDiv{
+        width: 130px;
+        height: 190px;
+    }
+
+    .book-list {
+        justify-content: center;
+    }
+    .book-btn{
+        font-size: 16px;
+        padding: 5px 11px;
+    }
+    .input-div {
+        width: 190px;
+    }
+    .mybook-p {
+        font-size: 16px;
+    }
+    .searchLogo {
+        margin-top: 7px;
+        display: inline-block;
+        width: 13px;
+        height: 16px;
+    }
+    #searchInput {
+        font-size: 9px;
+    }
+    #searchButton{
+        background-color: #fff0;
+    }
+    .favList{
+        font-size: 12px;
+        margin-top: 2px;
+        margin-left: 13px;
+    }
+    
+    .category-p {
+        display: block;
+        margin-bottom: 50px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .category-p:hover{
+        background-color: #462a0b;
+    }
+    .author-p , #authorList {
+        display: none;
+    }
+    
+    #categoryList {
+        display: none;
+    }
+
+    .category-p.activeCategory + #categoryList {
+        display: block;
+    }
+   
+    .footer-container {
+        width: 200px;
+        text-align: center;
+    }    
+    .footer-item {
+       display: block;
+       padding: 10px 0;
+    }
+    .footer-item a {
+        font-size: 13px;
+        padding: 0px;
+    }
+
+    .popup .content {
+        width: 250px;
+        font-size: 14px;
+    }
+    .popup .content h2{
+        font-size: 15px;
+    }
+
+}
+/* SliderTXT2*/
+
+@media screen and (min-width:300px) and (max-width: 340px){
+    .quoteIcon{
+        font-size: 32px;
+        top: 10%;
+        left: 15%;
+    }
+    .authorQuote{
+        font-size: 12px;
+    }
+    .sliderTxt2{
+        font-size: 14px;
+        top: 13%;
+        left: 24%;
+        width: 170px;
+        line-height: 45px;
+        padding: 5px 10px;
+    } 
+}
+
+@media screen and (min-width:341px) and (max-width: 390px){
+    .authorQuote{
+        font-size: 18px;
+    }
+    .quoteIcon{
+        font-size: 29px;
+        top: 11%;
+        left: 17%;
+    }
+    .sliderTxt2{
+        font-size: 21px;
+        top: 13%;
+        left: 26%;
+        width: 200px;
+        line-height: 45px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width:391px) and (max-width: 430px){
+    .authorQuote{
+        font-size: 17px;
+    }
+    .quoteIcon{
+        font-size: 30px;
+        top: 13%;
+        left: 19%;
+    }
+    .sliderTxt2{
+        font-size: 24px;
+        top: 13%;
+        left: 26%;
+        width: 238px;
+        line-height: 45px;
+        padding: 5px 20px;
+    }
+}
+@media screen and (min-width:431px) and (max-width: 500px){
+    .authorQuote{
+        font-size: 18px;
+    }
+    .quoteIcon{
+        font-size: 32px;
+        top: 11%;
+        left: 23%;
+    }
+    .sliderTxt2{
+        font-size: 26px;
+        top: 13%;
+        left: 30%;
+        width: 210px;
+        line-height: 45px;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width: 600px){
+    .sliderTxt2{
+        font-size: 27px;
+        top: 13%;
+        left: 33%;
+        width: 238px;
+        line-height: 45px;
+        padding: 5px;
+    }
+    
+    .quoteIcon{
+        font-size: 35px;
+        top: 11%;
+        left: 27%;
+    }
+    .authorQuote{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:701px) and (max-width: 991px){
+    .sliderTxt2{
+        font-size: 32px;
+        top: 31%;
+        left: 31%;
+        width: 360px;
+        line-height: 50px;
+        padding: 5px;
+    }
+    
+    .quoteIcon{
+        font-size: 35px;
+        top: 31%;
+        left: 27%;
+    }
+    .authorQuote{
+        font-size: 21px;
+    }
+}
+
+
+/*slider text 3*/
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .sliderTxt3 {
+        font-size: 19px;
+        top: 22%;
+        right: 6%;
+        width: 40%;
+        text-align: center;
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+    .sliderTxt3 {
+        font-size: 24px; 
+        top: 20%; 
+        left: 60%; 
+        width: 180px; 
+        line-height: 50px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 700px) {
+
+    .sliderTxt3 {
+        font-size: 26px;
+        top: 20%;
+        right: 10%;
+        width: 26%;
+        line-height: 50px;
+    }
+    .sliderTxt2{
+        font-size: 28px;
+        top: 13%;
+        left: 33%;
+        width: 238px;
+        line-height: 45px;
+        padding: 5px;
+    }
+    
+    .quoteIcon{
+        font-size: 35px;
+        top: 11%;
+        left: 27%;
+    }
+    .authorQuote{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 884px) {    
+     
+    .sliderTxt3 {
+        font-size: 34px;
+        top: 20%;
+        right: 5%;
+        width: 280px;
+        line-height: 70px;
+    }
+}
+
+@media screen and (min-width: 885px) and (max-width: 991px) {
+
+    .sliderTxt3 {
+        font-size: 36px;
+        top: 30%;
+        right: 0;
+        width: 42%;
+        line-height: 60px;
+    } 
+    
+}
+@media screen and (min-width: 992px) and (max-width: 1140px) {
+    .sliderTxt3 {
+        font-size: 40px;
+        top: 37%;
+        right: 5%;
+        width: 400px;
+        line-height: 90px;
+    }
+    .sliderTxt2{
+        font-size: 45px;
+        top: 33%;
+        left: 29%;
+        width: 500px;
+        line-height: 80px;
+        padding: 5px;
+    }
+    
+    .quoteIcon{
+        font-size: 48px;
+        top: 33%;
+        left: 24%;
+    }
+    .authorQuote{
+        font-size: 28px;
+    }
+}

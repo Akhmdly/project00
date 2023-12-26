@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/slider.css">
+    <link rel="stylesheet" href="./styles/favorite.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="icon" type="image/png" href="./images/title.png" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Books</title>
+</head>
+<body>
+    <header>
+        <div class="header-div">
+        
+            <a href="index.html" class="logo">Books</a>
+
+            <div class="navigation-container">             
+                <ul class="navigation-list">
+                    <li class="navigation-item"><a href="#" class="activePage">Main</a></li>  
+                    <li class="navigation-item"><a href="#" >Favorites</a></li>
+                    <li class="navigation-item"><a href="#">Privacy</a></li>
+                    <li class="navigation-item"><a href="#">Contact</a></li>
+                </ul>                 
+            </div>
+
+            <div class="register-buttons">
+                <a id="signUp" class="register-btn" href="./index-login.html" target="_blank">Subcribe</a>
+            </div>
+            
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="slider-content">
+             
+            <div class="slider-item">
+                <img src="./images/photoM.jpg" alt="reading">
+                <p class="sliderTxt1"> READING BOOK MAKES YOU BETTER !</p>
+            </div> 
+
+            <div class="slider-item">
+                <img src="./images/Books.jpg" alt="reading">
+                <i class="fa-solid fa-quote-left quoteIcon"></i>
+                <p class="sliderTxt2">A book is a gift you can open again and again. <br>
+                    <span class="authorQuote">Garrison Keillor</span> 
+                </p>             
+            </div>
+          
+
+            <div class="slider-item">
+                <img src="./images/blogg.png" alt="reading" >
+                <p class="sliderTxt3">Explore the world. Rediscover yourself !</p>
+            </div>
+
+         </div>
+     </div> 
+
+    <main>
+ 
+        <aside>
+            <p class="author-p">Authors</p>
+            <ul id ="authorList">
+                <li data-author ="Agatha Christie">Agatha Christie</li>
+                <li data-author ="Alexandre Dumas"> Alexandre Dumas</li>
+                <li data-author="Arthur Conan Doyle" >Arthur Conan Doyle</li>
+                <li data-author ="Barbara Cartland">Barbara Cartland</li>
+                <li data-author ="Charles Dickens"> Charles Dickens</li>
+                <li data-author =" Ernest Hemingway"> Ernest Hemingway</li>
+                <li data-author ="Fyodor Dostoevsky">Fyodor Dostoevsky</li>
+                <li data-author ="Lev Tolstoy">Lev Tolstoy</li>
+                <li data-author =" Rick Riordan"> Rick Riordan</li>
+                <li data-author="Victor Hugo" >Victor Hugo</li>
+                <li data-author ="William Shakespeare">William Shakespeare</li>
+            </ul>
+
+
+            <p class="category-p">Categories</p>
+            <ul id ="categoryList">
+                <li data-category="Art" >Art</li>
+                <li data-category="Borland C++ ">Borland C++</li>
+                <li data-category="Cookbook">Cookbook</li>
+                <li data-category="Computers">Computers</li>
+                <li data-category="Computer capacity">Computer capacity</li>
+                <li data-category="Computer networks">Computer networks</li>
+                <li data-category="Dramatic">Dramatic</li>
+                <li data-category="Education">Education</li>
+                <li data-category="Electronic journals">Electronic journals</li>
+                <li data-category="Essay">Essay</li>
+                <li data-category="Fantastic">Fantastic</li>
+                <li data-category="Fiction">Fiction</li>
+                <li data-category="Operating systems (Computers)">Operating systems (Computers)</li>
+                <li data-category="Novel">Novel</li>
+                <li data-category="NetWare">NetWare</li>
+                <li data-category="Macintosh (Computer)">Macintosh (Computer)</li>
+                <li data-category="Microsoft Windows (Computer file)">Microsoft Windows (Computer file)</li>
+                <li data-category="Painting">Painting</li>
+                <li data-category="Poetry">Poetry</li>
+                <li data-category="Psychology">Psychology</li>
+                <li data-category="Science Fiction">Science Fiction</li>
+                <li data-category="Self-help">Self-help</li>
+                <li data-category="Technology & Engineering">Technology & Engineering</li>
+            </ul>
+        </aside> 
+
+        <section>
+            <div class="popup" id="favoritesPopup">
+                <div class="overlay" onclick="toggleFavoritesPopup()"></div>
+
+                <div class="content favorites-content">
+                    <button class="close-btn" onclick="toggleFavoritesPopup()">
+                        <i class="fa-solid fa-xmark"></i>    
+                    </button>
+                    <h2>My favorite books</h2>
+                    <div id="favoritesContainer"></div>
+                </div>
+
+            </div>
+
+            <div class="search-div">
+                <p class="mybook-p" >Books</p>
+                <button class="favList" type="submit" onclick="toggleFavoritesPopup()">Favorites</button>
+                <div class="input-div">
+                    <label for="searchInput"></label>
+                    <input id="searchInput" type="text" placeholder="Search book.."> 
+                    <div id="searchButton">
+                        <svg class="searchLogo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                            <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+                        </svg>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div id="bookList" class="book-list">               
+                <!-- kitablar -->
+            </div>
+
+        </section>  
+
+    </main>
+
+    <footer>
+        <div class="footer-container">             
+            <ul class="footer-list">
+                <li class="footer-item"><a href="#" class="activeFooterItem">Articles</a></li>  
+                <li class="footer-item"><a href="#">Library</a></li>
+                <li class="footer-item"><a href="#">Company</a></li>
+                <li class="footer-item"><a href="#">Connect</a></li>
+                <li class="footer-item"><a href="#"> Privacy & Terms </a></li>
+            </ul>                 
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

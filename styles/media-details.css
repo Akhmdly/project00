@@ -1,0 +1,199 @@
+@media screen and (min-width:991px) and (max-width: 1440px){
+    .header-div{
+         width: 100%;
+    } 
+}
+
+@media  screen and (min-width: 720px) and (max-width: 990px) {
+    .header-div{
+        width: 100%;
+    }
+
+    .register-btn {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    .navigation-container {
+        width: 400px;
+        margin: 10px auto;
+    }
+
+    .navigation-item  {
+        padding: 7px;
+    }
+
+    .navigation-item a {
+        font-size: 16px;
+        padding: 4px;
+    }
+
+    .bTitle {    
+        font-size: 22px;
+    }
+    .myBook {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .information {
+        width: 460px;
+        margin-bottom: 30px;
+    }
+    .description {
+        width: 400px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 33px;
+        margin-top: 10px;
+    }
+    .bookImgContainer {
+        width: 150px;
+    }
+    .bookImgContainer img{
+        width: 120px;
+    }
+
+}
+
+@media  screen and (min-width:600px) and (max-width: 719px) {   
+    .header-div{
+        width: 100%;
+    } 
+    .logo {
+        font-size: 35px;
+    }
+    .register-btn {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .navigation-container {
+        width: 300px;
+        margin: 10px auto;
+    }
+    .navigation-item  {
+        padding: 3px;
+    }
+    .navigation-item a {
+        font-size: 13px;
+        padding: 4px;
+    }  
+    .bTitle {    
+        font-size: 22px;
+    }
+    .myBook {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .information {
+        margin-bottom: 30px;
+        width: 380px;
+    }
+    .description {
+        width: 400px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 32px;
+        margin-top: 5px;
+    }
+    .bookImgContainer {
+        margin-right: 35px;
+        width: 120px;
+    }
+    .bookImgContainer img{
+        width: 120px;
+    }
+
+}
+
+@media  screen and (min-width:430px) and (max-width: 599px) {   
+    .header-div{
+        width: 100%;
+   } 
+    .logo {
+        font-size: 40px;
+    }
+    .register-btn {
+        font-size: 14px;
+        padding: 5px;
+    }
+    .navigation-container {
+        display: none;
+     }
+ 
+    .bTitle {    
+        font-size: 23px;
+        text-align: center;
+        margin: 12px 0;
+    }
+    .myBook {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .information {
+        margin-bottom: 25px;
+        width: 380px;
+    }
+    .description {
+        width: 100%;
+    }
+    p {
+        font-size: 15px;
+        line-height: 40px;
+        margin-top: 0;
+    }
+    .bookImgContainer {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+}
+
+@media  screen and (min-width:300px) and (max-width: 429px) {   
+    .header-div{
+        width: 100%;
+   } 
+    .logo {
+        font-size: 35px;
+    }
+    .register-btn {
+        font-size: 12px;
+        padding: 5px;
+    }
+    .navigation-container {
+       display: none;
+    } 
+    .bTitle {    
+        font-size: 22px;
+        text-align: center;
+    }
+    .myBook {
+        width: 250px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .information {
+        margin-bottom: 25px;
+        width: 270px;
+    }
+
+    .description {
+        width: 100%;
+    }
+    p {
+        font-size: 15px;
+        line-height: 40px;
+        margin-top: 0;
+    }
+    .bookImgContainer {
+        width: 170px;
+        margin: 0 auto;
+    }
+
+}

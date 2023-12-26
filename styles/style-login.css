@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+.subcribeContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(1 7 12 / 50%), rgb(5 16 23 / 66%)),url(../images/log.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.register{
+    background-color: #fff;
+    width: 330px;
+    padding: 45px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textLog{
+    font-size:40px;
+    color: #1590d2;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.form{
+    display: inline-block;
+    width: 280px;
+}
+.login-info{
+    display: block;
+    width: 93%;    
+    padding: 9px;
+    margin: 30px 0px 30px;
+    border: 0;
+    background-color: #efefef;
+    outline: none;
+    font-size: 15px;
+}
+#username,.usernameLabel{
+    display: none;
+}
+#passwordInput{
+    margin-bottom: 30px;
+}
+.login-button{
+    width: 100%;
+    background-color: #1590d2;
+    font-size: 18px;
+    padding: 6px 12px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;/*069e6f*/
+}
+.login-button:hover{
+background-color: #0977b2;
+}
+.orSign{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.orSign a{
+    color: #1590d2;
+    text-decoration: none;
+}
+.orSign a:hover{
+    color: #0977b2;
+}
+
+@media screen and (min-width:0px) and (max-width: 550px) {
+    .textLog {
+        font-size: 36px;
+        margin-bottom: 5px;
+    }
+    .register {
+        width: 216px;
+        padding: 50px 14px;
+    }
+    .form {
+        width: 200px;
+    }
+    .login-info {
+        font-size: 13px;
+    }
+    .login-button {
+        width: 35%;
+        font-size: 13px;
+        padding: 6px 0px;
+        border: 0;
+        margin: 0 auto;
+        display: block;
+    }
+    .orSign {
+        margin-top: 15px;
+        font-size: 11px;
+    }
+
+}
