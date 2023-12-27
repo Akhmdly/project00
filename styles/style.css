@@ -171,11 +171,8 @@ section {
     transform: scale(1.05);
 }
 .book-title {
-    display: -webkit-box;
-    max-height: 48px;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    display: block;
+    height: 48px;
     font-size: 17px;
     font-weight: bold;
     margin: 10px 0;
@@ -190,11 +187,8 @@ section {
     height: 100%;
 }
 .book-author {
-    display: -webkit-box;
-    max-height: 45px; 
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+    display: block;
+    height: 45px; 
     font-size: 13px;
     color: #777;
     margin: 10px 0;
