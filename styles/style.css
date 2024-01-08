@@ -173,6 +173,7 @@ section {
 .book-title {
     display: block;
     height: 48px;
+    overflow: hidden;
     font-size: 17px;
     font-weight: bold;
     margin: 10px 0;
