@@ -95,6 +95,7 @@ aside{
 #categoryList li,#authorList li{
     margin: 10px 0;
     padding: 10px;
+    cursor: pointer;
     font-size: 17px;
     border-radius: 0px;
     background: #ede9e3;
